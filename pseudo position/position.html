@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS POSITIONS</title>
+    <style>
+        .box{
+            border: 2px dotted purple;
+            width: 200px;
+        } 
+        .swim-container{
+            position: relative;
+            border: 2px solid peru;
+        }
+         /*.ring{
+            position: relative;
+            left: 30px;
+            top: 30px;
+            top: -30px;} */
+            /*.ring{
+                position: absolute;
+                top: 40px;
+                left: 100px;
+            }*/
+            .dummy{
+                border: 1px solid yellowgreen;
+                width: 200px;
+                height: 200px;
+            }
+            /*.ring{
+                position: sticky;
+                top: 0px;
+            }*/
+           /*.ring{
+                position: fixed;
+                top: 200px;
+                left: 50px;
+            }*/
+         
+    </style>
+</head>
+<body>
+   <h3>Css positions</h3>
+   <p>There are 5 types of position.</p>
+   <ol>
+    <p>**Flow related</p>
+    <li>  Static position = isthir position (normally serial wise jevabe boshe.like 1 e kichu likhlam tarpor 2 e likhar jonno asbe etai )</li>
+
+    <li>Relative position: <small>current position relative e koto tuku change hobe and will not leave the current spot.(positive dile jekhane thakar kotha sekhan theke 30px niche asbe ,negative value dile jekhane thakr kotha tar uporer dike  vhitore sore jabe.) </small> </li>
+    <li>Absolute position: <small>nijosso kono jayga nai. root theke tar command follow kore.like top 40px bolay root theke sorse.(will lose it's own position and will move based on the root.) But etar parent div er kono position diye dewa hole eta tar based e sorbe or move korbe jodi parent container er position na dewa thake tobe eta root er based e move korbe!</small></li>
+    <br><p>**last two are scroll related</p>
+    <li>sticky position: <small><small>tar parent obdi scroll korle setake dekha jabe ,orthat sticky thakbe scolling er somoy. abar tar parent div sesh hole dekha jabe na</small></li>
+    <li>Fixed position: <small>position fixed korle seta to and  left je value diye dewa hobe seta sevabei screen(view port) e fixed position e thakbe jodio tar div sesh hoye jak na kn.seta fixed e thakbe.</small></li>
+   </ol>
+   <div class="swim-container">
+    <!-- .box*3>img -->
+    <div class="box boy"><img src="/pseudo-position/swim/boy.svg" alt=""></div>
+    <div class="box ring"><img src="/pseudo-position/swim/ring.svg" alt=""></div>
+    <div class="box water"><img src="/pseudo-position/swim/water.svg" alt=""></div>
+
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+
+   </div>
+    
+</body>
+</html>

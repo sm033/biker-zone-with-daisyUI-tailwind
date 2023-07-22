@@ -1,0 +1,20 @@
+.{
+    margin: 0;
+    padding: 0;
+}
+.header-top{
+    background-color: rgb(46, 63, 156);
+    height: 20px;
+    display: inline;
+    
+}
+.header-top-left{
+    background-color: rgb(156, 108, 46);
+    height: 20px;
+    width: 50%;
+}
+.header-top-right{
+    background-color: rgb(156, 46, 55);
+    height: 20px;
+    width: 50%;
+}

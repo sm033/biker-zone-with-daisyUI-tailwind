@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Element</title>
+    <style>
+        h3::after{
+            content: '.pdf';
+            color: cornflowerblue;
+            background-color: cyan;
+            font-size: 10px;
+        }
+        h3::before{
+            content: 'start:';
+            color: black;
+            background-color: antiquewhite;
+            font-size: 20px;
+        }
+        p::first-letter{
+            /*font-size: 3em;(em= 3 gon hobe likha onno likhar tulonay)*/
+            font-size: 2em;
+        }
+        p::first-line{
+            background-color:cadetblue
+
+        }
+        ::selection{
+            background-color: darksalmon;}
+
+            input::placeholder{
+                color: blue;
+            }
+
+    </style>
+
+</head>
+<body>        
+
+    
+    <!-- h*3{Heading-$} -->
+    <h3>Heading-1</h3>
+    <h3>Heading-2</h3>
+    <h3>Heading-3</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam reprehenderit accusantium facilis molestias, aperiam rem sequi ducimus, vitae harum eligendi consectetur a quasi earum officiis dolorem pariatur esse et nostrum.</p>
+    <p>Officiis sunt natus recusandae dolorem doloremque dolores esse earum totam eos eveniet, minima mollitia quae molestias harum dignissimos aut vel reiciendis excepturi veniam nostrum quos. Natus, error tenetur. Eveniet, aliquid.</p>
+    <p>Ea eligendi libero quidem fugiat possimus rem natus quos asperiores. Amet in modi, officia reiciendis repellat sed. Consectetur temporibus, totam, dolorem quas magni deserunt deleniti inventore at nam praesentium sint.</p>
+    
+</body>
+</html>
