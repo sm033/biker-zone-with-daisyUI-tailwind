@@ -9,7 +9,11 @@
   <script src="https://cdn.tailwindcss.com"></script>
 
    
-    <!-- google fonts poppins -->
+    <!-- google fonts poppins and inter-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -22,9 +26,8 @@
         colors: {
           clifford: '#da373d',
           'bike-btn': '#E76F51',
-        'bike-banner-bg': 'rgba(231, 111, 81, 0.10)',
-        
-      }
+          'bike-banner-bg': 'rgba(231, 111, 81, 0.10)',
+         }
       }
     }
   }
@@ -36,6 +39,9 @@
  <style>
     .font-poppins{
         font-family: 'Poppins', sans-serif;
+    }
+    .font-inter{
+      font-family: 'Inter', sans-serif;
     }
 
  </style>
@@ -230,7 +236,7 @@
    <section class="my-24"> 
     <h3 class="text-5xl mb-12 font-semibold text-[ #0A0826] text-center">Happy <span class="text-bike-btn">Clients Says</span></h3>
     
-     <div class="grid lg:ml-[150px] lg:mr-[150px]  lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-evenly">
+     <div class="grid ml-8 mr-8 gap-10 lg:gap-0  lg:ml-[150px] lg:mr-[150px] lg:mt-[80px]   lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-evenly">
 
       <!-- first-review -->
       <div class="card  p-5  lg:w-96  bg-[ var(--light-background-color, #FFF)] border border-2 border-[#DEDEDE] rounded-[5px] shadow-xl">
@@ -303,28 +309,110 @@
 
 
 
-   </div> 
+ </div> 
        
-       
+  </section> 
+  <!-- happy client section end -->
+
+  <!-- faq section start -->
+  <section class="my-24">
+         <h3 class="text-5xl mb-12 font-semibold text-center">Frequently Asked  <span class="text-bike-btn">Questions</span></h3>
+
+         <div class="hero  ">
+          <div class="hero-content flex-col lg:gap-24 lg:flex-row">
+            <img src="/biker-zone-resources/images/others/faq.png" class="w-3/4 lg:max-w-sm rounded-lg shadow-2xl" />
+            <div>
+              <!-- first question -->
+              <div class="collapse collapse-arrow border-2 border-[#D5E5FB] ">
+                  <input type="radio" name="my-accordion-2" checked="checked" /> 
+                  <div class="collapse-title text-xl font-medium">
+                      What are the most important things I should
+                      know about riding a bike?
+                  </div>
+                  <div class="collapse-content"> 
+                    <p class="text-[#7E848C] text-base font-normal font-inter">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                  </div>
+                </div>
+                <!-- 2nd -->
+                <div class="collapse collapse-arrow border-2 border-[#D5E5FB] mt-3 ">
+                  <input type="radio" name="my-accordion-2" /> 
+                  <div class="collapse-title text-xl font-medium">
+                      How can I tell if my helmet is old and I need a 
+                      new one?
+                  </div>
+                  <div class="collapse-content"> 
+                    <p class="text-[#7E848C] text-base font-normal font-inter">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                  </div>
+                </div>
+                <!-- 3rd -->
+                <div class="collapse collapse-arrow border-2 border-[#D5E5FB] mt-3 ">
+                  <input type="radio" name="my-accordion-2" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    My bike has been in storage is it safe to ride?
+                  </div>
+                  <div class="collapse-content"> 
+                    <p class="text-[#7E848C] text-base font-normal font-inter">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                  </div>
+                </div>
+                <!-- 4th -->
+                <div class="collapse collapse-arrow border-2 border-[#D5E5FB] mt-3 ">
+                  <input type="radio" name="my-accordion-2" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    What rules should I follow when riding my bike?
+                   </div>
+                  <div class="collapse-content"> 
+                    <p class="text-[#7E848C] text-base font-normal font-inter">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                  </div>
+                </div>
+                
+                </div>
+            </div>
+          </div>
+        </div>
+
+  </section>
+  <!-- faq-end -->
+</main>
+<footer class="footer pt-[56px] pl-[165px] pb-[84px] pr-[165px] bg-neutral-900 text-neutral-content ">
+  
+  
+    <div class="flex gap-6">
+      <p class="text-white text-base font-normal">Download Now</p>
+      <p class="text-white text-base font-normal">License</p>
+    </div>
+    
+      <div>
+        <ul>
+            <li><a href="">About</a></li>
+            <li><a href="">Features</a></li>
+            <li><a href="">Pricing</a></li>
+            <li><a href=""></a>Careers</li>
+            <li><a href="">Help</a></li>
+            <li><a href=""></a>Privacy Policy</li>
+        </ul>
+      </div>
    
 
-
-
-
-
     
+    
+   
+  
 
-   </section> 
+  
+  <div>
+    <span class="footer-title text-lg font-semibold text-[#D9DBE1]">Get The App</span> 
+    <div class="grid grid-cols-1 gap-4">
+      <a><img class="w-36" src="/biker-zone-resources/images/others/android.png" alt=""></a> 
+      <a><img class="w-36" src="/biker-zone-resources/images/others/ios.png" alt=""></a> 
+
+    </div>
+  </div>
+  
+</footer>
 
   
 
-
-  </main>
-  <footer>
-
-  </footer>
-
-  </body
+</body
 
 </html>
       
